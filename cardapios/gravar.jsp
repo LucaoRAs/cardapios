@@ -19,13 +19,7 @@
 	    c.setNome(request.getParameter("nome"));
 	    c.setTipo(request.getParameter("tipo"));
 	    c.setDescricao(request.getParameter("descricao"));
-
-	    String precoParam = request.getParameter("preco");
-	    if (precoParam != null && !precoParam.trim().isEmpty()) {
-	        c.setPreco(Float.parseFloat(precoParam)); 
-	    } else {
-	        c.setPreco(0.0f); 
-	    }
+	    c.setPreco(request.getParameter("preco");
 
 	    if (c.getId() > 0) {
 	        dao.alterar(c);
