@@ -22,7 +22,7 @@ rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bR
 			c.setNome(" ");
 			c.setTipo(" ");
 			c.setDescricao(" ");
-			c.setPreco(0.0f);
+			c.setPreco(" ");
 	};
 	%>
 
